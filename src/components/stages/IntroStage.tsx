@@ -56,7 +56,7 @@ export default function IntroStage({ onOpen }: { onOpen: () => void }) {
         transition={{ delay: 0.5, duration: 0.7 }}
         className="mt-2 max-w-xs font-body text-sm leading-relaxed text-ink-100 mx-auto"
       >
-        Tặng mẹ yêu nhân ngày 20/10 — có một điều bất ngờ đang chờ mẹ mở ra 💗
+        Tặng Như Quỳnh yêu dấu nhân ngày 20/10 — có một điều bất ngờ đang chờ em mở ra 💗
       </motion.p>
 
       <motion.div
@@ -75,7 +75,7 @@ export default function IntroStage({ onOpen }: { onOpen: () => void }) {
           </button>
         </div>
         <p className="hint-bounce font-body text-xs text-blush-500">
-          Mẹ bấm nhẹ vào nút nhé ↓
+          Em bấm nhẹ vào nút nhé ↓
         </p>
       </motion.div>
     </div>

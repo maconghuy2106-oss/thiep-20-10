@@ -40,9 +40,9 @@ export default function FinaleStage({
         transition={{ delay: 0.9, duration: 1 }}
         className="mt-7 max-w-sm font-display text-[1.45rem] italic leading-snug text-ink-300 sm:text-3xl"
       >
-        Chúc mẹ ngày 20/10 thật vui vẻ,
+        Chúc Như Quỳnh ngày 20/10 thật vui vẻ,
         <br />
-        luôn mạnh khỏe, bình an và hạnh phúc
+        luôn mạnh khỏe, học giỏi và hạnh phúc
       </motion.h2>
 
       <motion.div
@@ -52,7 +52,7 @@ export default function FinaleStage({
         className="mt-5"
       >
         <p className="font-script text-2xl text-blush-600 sm:text-3xl">
-          Gửi đến mẹ sì Nhung
+          Gửi đến Như Quỳnh yêu dấu
         </p>
         <p className="mt-1 font-body text-sm text-ink-100">
           — Ma Công Huy —
@@ -66,7 +66,7 @@ export default function FinaleStage({
         className="mt-9 flex flex-col items-center gap-3"
       >
         <p className="hint-bounce font-body text-xs text-blush-400">
-          💮 Mẹ giữ lại làm kỷ niệm nhé
+          💮 Em giữ lại làm kỷ niệm nhé, anh mất lâu lắm mới làm xong đống này ó hic hic
         </p>
         <button
           type="button"

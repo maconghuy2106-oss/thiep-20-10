@@ -4,24 +4,26 @@ import { playSparkle } from "../../lib/music";
 
 // 1. Nhập các bức ảnh gia đình từ thư mục assets
 // (Bạn nhớ chuẩn bị các file ảnh family1.jpg, family2.jpg... trong src/assets/images/)
-import family1 from "../../assets/images/family1.png";
-import family2 from "../../assets/images/family2.png";
-import family3 from "../../assets/images/family3.png";
+import anhdoi1 from "../../assets/images/anhdoi1.png";
+import anhdoi2 from "../../assets/images/anhdoi2.png";
+import anhdoi3 from "../../assets/images/anhdoi3.png";
+import anhdoi4 from "../../assets/images/anhdoi4.png";
 
 // Danh sách các bức ảnh kèm chú thích
 const FAMILY_PHOTOS = [
-  { url: family1, caption: "Gia đình mình luôn bên nhau 💕" },
-  { url: family2, caption: "Kỷ niệm ấm áp cùng mẹ ✨" },
-  { url: family3, caption: "Chúc mẹ luôn mỉm cười thật tươi 🌸" },
+  { url: anhdoi1, caption: "Tụi mình luôn bên nhau 💕" },
+  { url: anhdoi2, caption: "Kỷ niệm ấm áp cùng em ✨" },
+  { url: anhdoi3, caption: "Chúc em luôn mỉm cười thật tươi 🌸" },
+  { url: anhdoi4, caption: "Mãi yêu em hihi" },
 ];
 
 // 2. Nội dung thư chúc mừng 20/10 mới
 const LINES = [
-  "Gửi mẹ sì Nhung,",
-  "Nhân ngày Phụ nữ Việt Nam 20/10, con chúc mẹ luôn vui vẻ, tràn đầy sức khỏe và thật hạnh phúc!",
-  "Cảm ơn mẹ đã luôn là tựa gối bình yên, luôn yêu thương và chăm sóc con từng ngày.",
-  "Mẹ nhớ giữ gìn sức khỏe, luôn tươi cười và bình yên mẹ nhé.",
-  "Thank you mẹ",
+  "Gửi Như Quỳnh yêu dấu,",
+  "Nhân ngày Phụ nữ Việt Nam 20/10, anh chúc em luôn vui vẻ, tràn đầy sức khỏe và thật hạnh phúc!",
+  "Cảm ơn em đã luôn là tựa gối bình yên, luôn yêu thương, quan tâm anh từng ngày.",
+  "Em nhớ giữ gìn sức khỏe, luôn tươi cười và bình yên em nhé.",
+  "Yêu em <3",
 ];
 
 function useTypewriter(lines: string[], speed = 26) {
@@ -122,7 +124,7 @@ export default function LetterStage({ onNext }: { onNext: () => void }) {
                 className="mt-6 border-t border-dashed border-blush-200 pt-6 space-y-6"
               >
                 <p className="font-display text-center text-lg italic text-blush-600">
-                  📸 Khoảnh khắc gia đình mình 💕
+                  📸 Khoảnh khắc của tụi mình 💕
                 </p>
                 <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                   {FAMILY_PHOTOS.map((photo, index) => (
@@ -164,14 +166,14 @@ export default function LetterStage({ onNext }: { onNext: () => void }) {
             className="mt-6 flex flex-col items-center gap-3 relative z-30"
           >
             <p className="font-body text-sm text-ink-100">
-              Xem xong ảnh, mẹ bấm vào đây nhé 💕
+              Xem xong ảnh, em bấm vào đây nhé 💕
             </p>
             <button
               type="button"
               onClick={handleNext}
               className="relative z-50 rounded-full bg-gradient-to-br from-blush-400 via-blush-500 to-blush-600 px-8 py-3.5 font-display text-lg font-semibold text-white shadow-[0_16px_34px_-14px_rgba(189,75,109,0.75)] transition active:scale-95 cursor-pointer pointer-events-auto"
             >
-              💕 Mẹ ấn vào đây
+              💕 Em ấn vào đây
             </button>
           </motion.div>
         )}

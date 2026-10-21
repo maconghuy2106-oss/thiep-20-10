@@ -7,25 +7,25 @@ const ITEMS: { icon: string; label: string; message: string }[] = [
     icon: "🌹",
     label: "Một lời cảm ơn",
     message:
-      "Thank you mẹ đã dạy dỗ con và Tùng.",
+      "Cảm ơn em đã đến và yêu anh, đã luôn là điểm tựa vững chắc mỗi khi anh gặp khó khăn. Yêu em nhiều.",
   },
   {
     icon: "💐",
     label: "Một lời hứa",
     message:
-      "Con sẽ cố gắng học tập trong môi trường quân sự này.",
+      "Anh hứa sẽ cố gắng thật nhiều và quan tâm em nhiều hơn trong thời gian tới huhu.",
   },
   {
     icon: "🌸",
-    label: "Điều con nhớ nhất",
+    label: "Điều anh nhớ nhất",
     message:
-      "Cách mẹ chăm con và Tùng lúc ốm.",
+      "Không nhớ em còn ai nhớ ai nữa hihi.",
   },
   {
     icon: "💗",
-    label: "Con dặn mẹ",
+    label: "Nói nhỏ với Như Quỳnh",
     message:
-      "Sống vui vẻ, mạnh khỏe với ba Kim.",
+      "Hãy luôn vui vẻ, tích cực, cố gắng phấn đấu trong cuộc sống.",
   },
   {
     icon: "✨",
@@ -57,7 +57,7 @@ export default function ExploreStage({ onNext }: { onNext: () => void }) {
         transition={{ duration: 0.8 }}
         className="font-display text-2xl italic text-ink-300 sm:text-3xl"
       >
-        Mẹ ấn vào đây nhá
+        Em ấn vào đây nhá
       </motion.h2>
       <motion.p
         initial={{ opacity: 0, y: 14 }}
@@ -65,7 +65,7 @@ export default function ExploreStage({ onNext }: { onNext: () => void }) {
         transition={{ delay: 0.18, duration: 0.8 }}
         className="mt-2 max-w-xs font-body text-sm leading-relaxed text-ink-100"
       >
-        Ở đây mẹ ấn từng cái một
+        Ở đây em ấn từng cái một
       </motion.p>
 
       <motion.div
@@ -131,7 +131,7 @@ export default function ExploreStage({ onNext }: { onNext: () => void }) {
           className="mt-9 flex flex-col items-center gap-3"
         >
           <p className="font-body text-sm text-ink-100">
-            Còn một món quà cuối cùng chờ mẹ khám phá
+            Còn một món quà cuối cùng chờ diu khám phá
           </p>
           <button
             type="button"

@@ -20,7 +20,7 @@ export default function EnvelopeStage({ onOpen }: { onOpen: () => void }) {
         transition={{ duration: 0.8 }}
         className="font-display text-2xl italic text-ink-300 sm:text-3xl"
       >
-        Mẹ ơi, có một bức thư gửi mẹ ✉️
+        Như Quìn ơi, tui có một bức thư gửi bạn iu ✉️
       </motion.h2>
 
       <motion.p
@@ -108,7 +108,7 @@ export default function EnvelopeStage({ onOpen }: { onOpen: () => void }) {
           opened ? "opacity-0" : "opacity-100"
         } transition-opacity duration-500`}
       >
-        👆 Mẹ nhấn vào phong bì để mở thư nhé
+        👆 Em nhấn vào phong bì để mở thư nhé
       </motion.p>
     </section>
   );

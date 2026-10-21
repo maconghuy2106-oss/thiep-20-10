@@ -58,7 +58,7 @@ export default function BloomStage({ onDone }: { onDone: () => void }) {
         <div className="absolute inset-[-12%] -z-10 rounded-full bg-[radial-gradient(closest-side,rgba(255,236,214,0.95),rgba(255,236,214,0))] glow-pulse" />
         <img
           src={bouquetImg}
-          alt="Bó hoa hồng và hoa cẩm chướng tặng mẹ"
+          alt="Bó hoa hồng và hoa cẩm chướng tặng Như Quìn"
           className="watercolor breathe w-64 select-none sm:w-80"
           draggable={false}
         />
@@ -86,10 +86,10 @@ export default function BloomStage({ onDone }: { onDone: () => void }) {
         className="mt-6"
       >
         <h2 className="font-display text-2xl italic text-ink-300 sm:text-3xl">
-          Bó hoa này là của mẹ 💐
+          Bó hoa này là của Quỳnh iu dấu 💐
         </h2>
         <p className="mx-auto mt-2 max-w-xs font-body text-sm leading-relaxed text-ink-100 sm:text-base">
-          Hoa hồng và cẩm chướng — con gửi tặng mẹ.
+          Hoa hồng và cẩm chướng — Ma Huy gửi tặng Như Quỳnh.
         </p>
       </motion.div>
 
@@ -99,7 +99,7 @@ export default function BloomStage({ onDone }: { onDone: () => void }) {
         transition={{ delay: 3.4, duration: 0.8 }}
         className="hint-bounce mt-8 font-body text-sm text-blush-500"
       >
-        ... còn một bức thư đang đợi mẹ ↓
+        ... còn một bức thư đang đợi babbi đóa ↓
       </motion.p>
     </section>
   );
