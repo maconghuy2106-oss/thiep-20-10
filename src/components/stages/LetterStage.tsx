@@ -12,8 +12,8 @@ import anhdoi4 from "../../assets/images/anhdoi4.png";
 // Danh sách các bức ảnh kèm chú thích
 const FAMILY_PHOTOS = [
   { url: anhdoi1, caption: "Tụi mình luôn bên nhau 💕" },
-  { url: anhdoi2, caption: "Kỷ niệm ấm áp cùng em ✨" },
-  { url: anhdoi3, caption: "Chúc em luôn mỉm cười thật tươi 🌸" },
+  { url: anhdoi2, caption: "Người xinh nhất trên đời ✨" },
+  { url: anhdoi3, caption: "Chúc em luôn mỉm cười thật tươi, đừng khót nữa nhé hì 🌸" },
   { url: anhdoi4, caption: "Mãi yêu em hihi" },
 ];
 

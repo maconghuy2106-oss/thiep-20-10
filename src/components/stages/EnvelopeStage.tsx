@@ -52,7 +52,7 @@ export default function EnvelopeStage({ onOpen }: { onOpen: () => void }) {
 
             {/* letter sliding out */}
             <div className="env-letter paper absolute bottom-[10%] left-[7%] right-[7%] top-[9%] z-10 rounded-md px-4 py-3 text-left">
-              <p className="font-script text-lg text-blush-700">Gửi mẹ yêu,</p>
+              <p className="font-script text-lg text-blush-700">Gửi em iu yêu,</p>
               <p className="mt-1 font-body text-[0.62rem] leading-relaxed text-ink-100/80 sm:text-[0.7rem">
                 Có rất nhiều thứ ở trong này
               </p>
